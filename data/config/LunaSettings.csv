@@ -1,0 +1,723 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+#ITEM DESTRUCTION,,,,,,,,
+shu_itemdestructionHeader,Item Destruction Toggle Header,Header,Item Destruction Toggle,,,,,
+shu_itemdestructionToggle,Toggle Item Destruction,Boolean,False,,"Disables the destruction of AI cores and colony items when the ship is disabled or destroyed in combat. Set it to true to turn off the item loss penalty.
+
+[Default]: False",,,
+,,,,,,,,
+#SUBSYSTEMS,,,,,,,,
+shu_subsystemHeader,Subsystem Hotkey Header,Header,Hullmod Subsystem Hotkey,,,,,
+shu_subsystemHotkey_mikohime_blessings,Asterian Blessings Hotkey,String,LMENU,,"Assign a different hotkey for the Mikohime Blessings hullmod's subsystem.
+
+[Recommended]: R, LSHIFT, LMENU (Left ALT), LCONTROL
+
+[Note]: Must be capitalized and double check your input after saving the change.
+
+[Default]: LMENU",,,
+shu_subsystemHotkey_uaf_dimensional_nanoforge,Fighter Reinforcement Hotkey,String,LMENU,,"Assign a different hotkey for the Fighter Autoforge hullmod's subsystem.
+
+[Recommended]: R, LSHIFT, LMENU (Left ALT), LCONTROL
+
+[Note]: Must be capitalized and double check your input after saving the change.
+
+[Default]: LMENU",,,
+shu_subsystemHotkey_uaf_garrison_transmitter,Fighter Damper Conduit Hotkey,String,LMENU,,"Assign a different hotkey for the Flight Control Transmitter hullmod's subsystem.
+
+[Recommended]: R, LSHIFT, LMENU (Left ALT), LCONTROL
+
+[Note]: Must be capitalized and double check your input after saving the change.
+
+[Default]: LMENU",,,
+shu_subsystemHotkey_uaf_interplanetary_ricecooker,Weapon Overdrive Mode Hotkey,String,LMENU,,"Assign a different hotkey for the Defense Focus Integrator hullmod's subsystem.
+
+[Recommended]: R, LSHIFT, LMENU (Left ALT), LCONTROL
+
+[Note]: Must be capitalized and double check your input after saving the change.
+
+[Default]: LMENU",,,
+,,,,,,,,
+#GACHA-SMODS CHEAT TOGGLE,,,,,,,,
+shu_gachasmodCheatToggleHeader,Gacha S-mods Cheat Mode Toggle Header,Header,Gacha S-mods Cheat Mode Toggle,,,,,
+shu_gachasmodCheatToggle,Toggle Gacha S-mods Cheat Mode,Boolean,False,,"You know exactly what this is. If you want to ruin your fun then be my guest.
+
+Unlocks all Gacha S-Mod collaboration hullmods when set to true. The Gacha hullmods will appear in the refit screen. You still need to S-mod the Gacha hullmods to enable its effects.
+
+[Default]: False",,,
+,,,,,,,,
+#CUSTOM STATS MODE,,,,,,,,
+shu_customStatsModeHeader,Custom Stats Mode Toggle Header,Header,Custom Stats Mode Toggle,,,,,Custom Stats
+shu_customStatsModeToggle,Toggle Custom Stats Mode,Boolean,False,,"Set this to true first in order for the custom stats to take effect.
+
+[Default]: False",,,Custom Stats
+,,,,,,,,
+#AI CORES,,,,,,,,
+shu_alphaCore,Armament Support System (Alpha),Header,Armament Support System (Alpha),,,,,Custom Stats
+LUNA_CM_ALPHA_AUTOFIRE_BONUS,ALPHA_AUTOFIRE_BONUS,Double,60,,"Autofire accuracy bonus.
+
+[Default]: 60",0,500,Custom Stats
+LUNA_CM_ALPHA_TURRET_TURN_BONUS,ALPHA_TURRET_TURN_BONUS,Double,70,,"Turret turn bonus.
+
+[Default]: 70",0,500,Custom Stats
+LUNA_CM_ALPHA_COST_REDUCTION_LG,ALPHA_COST_REDUCTION_LG,Double,4,,"Reduces OP cost for non-missile large weapon.
+
+[Default]: 4",0,50,Custom Stats
+LUNA_CM_ALPHA_COST_REDUCTION_MED,ALPHA_COST_REDUCTION_MED,Double,3,,"Reduces OP cost for non-missile medium weapon.
+
+[Default]: 3",0,50,Custom Stats
+LUNA_CM_ALPHA_COST_REDUCTION_SM,ALPHA_COST_REDUCTION_SM,Double,2,,"Reduces OP cost for non-missile small weapon.
+
+[Default]: 2",0,50,Custom Stats
+,,,,,,,,
+shu_betaCore,Armament Support System (Beta),Header,Armament Support System (Beta),,,,,Custom Stats
+LUNA_CM_BETA_AUTOFIRE_BONUS,BETA_AUTOFIRE_BONUS,Double,30,,"Autofire accuracy bonus.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_BETA_TURRET_TURN_BONUS,BETA_TURRET_TURN_BONUS,Double,50,,"Turret turn bonus.
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_BETA_COST_REDUCTION_LG,BETA_COST_REDUCTION_LG,Double,2,,"Reduces OP cost for non-missile large weapon.
+
+[Default]: 2",0,50,Custom Stats
+LUNA_CM_BETA_COST_REDUCTION_MED,BETA_COST_REDUCTION_MED,Double,2,,"Reduces OP cost for non-missile medium weapon.
+
+[Default]: 2",0,50,Custom Stats
+LUNA_CM_BETA_COST_REDUCTION_SM,BETA_COST_REDUCTION_SM,Double,2,,"Reduces OP cost for non-missile small weapon.
+
+[Default]: 2",0,50,Custom Stats
+,,,,,,,,
+shu_gammaCore,Armament Support System (Gamma),Header,Armament Support System (Gamma),,,,,Custom Stats
+LUNA_CM_GAMMA_AUTOFIRE_BONUS,GAMMA_AUTOFIRE_BONUS,Double,15,,"Autofire accuracy bonus.
+
+[Default]: 15",0,500,Custom Stats
+LUNA_CM_GAMMA_TURRET_TURN_BONUS,GAMMA_TURRET_TURN_BONUS,Double,30,,"Turret turn bonus.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_GAMMA_COST_REDUCTION_LG,GAMMA_COST_REDUCTION_LG,Double,2,,"Reduces OP cost for non-missile large weapon.
+
+[Default]: 2",0,50,Custom Stats
+LUNA_CM_GAMMA_COST_REDUCTION_MED,GAMMA_COST_REDUCTION_MED,Double,1,,"Reduces OP cost for non-missile medium weapon.
+
+[Default]: 1",0,50,Custom Stats
+LUNA_CM_GAMMA_COST_REDUCTION_SM,GAMMA_COST_REDUCTION_SM,Double,1,,"Reduces OP cost for non-missile small weapon.
+
+[Default]: 1",0,50,Custom Stats
+,,,,,,,,
+#COLONY ITEMS,,,,,,,,
+shu_corruptedNanoforge,Arsenal Autoforge,Header,Arsenal Autoforge (Corrupted Nanoforge),,,,,Custom Stats
+LUNA_CM_CNANOFORGE_AMMO_BONUS,CNANOFORGE_AMMO_BONUS,Double,20,,"Increases ammo capacity of weapons.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_CNANOFORGE_MISSILE_AMMO_BONUS,CNANOFORGE_MISSILE_AMMO_BONUS,Double,30,,"Increases ammo capacity of missile weapons.
+
+[Default]: 30",0,500,Custom Stats
+,,,,,,,,
+shu_pristineNanoforge,Arsenal Autoforge (Enhanced),Header,Arsenal Autoforge (Pristine Nanoforge),,,,,Custom Stats
+LUNA_CM_PNANOFORGE_WEAPON_RELOAD_BONUS,PNANOFORGE_WEAPON_RELOAD_BONUS,Double,30,,"Decreases reload time of ammo-based weapons.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_PNANOFORGE_AMMO_BONUS,PNANOFORGE_AMMO_BONUS,Double,50,,"Increases ammo capacity of missile weapons.
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_PNANOFORGE_MISSILE_AMMO_BONUS,PNANOFORGE_MISSILE_AMMO_BONUS,Double,100,,"Increases ammo capacity of missile weapons.
+
+[Default]: 100",0,500,Custom Stats
+,,,,,,,,
+shu_biofactory,Biologic Commodity Replicator (Biofactory Embryo),Header,Biologic Commodity Replicator (Biofactory Embryo),,,,,Custom Stats
+LUNA_CM_BIOFACTORY_REQUIRED_ORGANICS,BIOFACTORY_REQUIRED_ORGANICS,Int,8,,"Required organics to produce harvested organs.
+
+[Default]: 8",0,100,Custom Stats
+,,,,,,,,
+shu_combatDroneReplicator,Expanded Fighter Manufactory,Header,Expanded Fighter Manufactory (Combat Drone Replicator),,,,,Custom Stats
+LUNA_CM_DRONE_REPLICATOR_FIGHTER_REPLACEMENT_RATE_BONUS,DRONE_REPLICATOR_FIGHTER_REPLACEMENT_RATE_BONUS,Double,10,,"Reduces decay of fighter replacement rate.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_DRONE_REPLICATOR_RATE_DECREASE_MODIFIER,DRONE_REPLICATOR_RATE_DECREASE_MODIFIER,Double,20,,"Reduces fighter refit time.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_DRONE_REPLICATOR_COST_REDUCTION_FIGHTER_LPC,DRONE_REPLICATOR_COST_REDUCTION_FIGHTER_LPC,Double,1,,"Reduces OP cost of fighter LPC.
+
+[Default]: 1",0,100,Custom Stats
+LUNA_CM_DRONE_REPLICATOR_COST_REDUCTION_BOMBER_LPC,DRONE_REPLICATOR_COST_REDUCTION_BOMBER_LPC,Double,2,,"Reduces OP cost of bomber LPC.
+
+[Default]: 2",0,100,Custom Stats
+LUNA_CM_DRONE_REPLICATOR_EXTRA_BAY,DRONE_REPLICATOR_EXTRA_BAY,Double,1,,"Adds extra fighter bay.
+
+[Default]: 1",0,50,Custom Stats
+,,,,,,,,
+shu_dealmakerHolosuite,Fleet Tactical Relay,Header,Fleet Tactical Relay (Dealmaker Holosuite),,,,,Custom Stats
+LUNA_CM_DEALMAKER_FLEET_SPEED_FRIGATE_BONUS,DEALMAKER_FLEET_SPEED_FRIGATE_BONUS,Double,4,,"Grants bonus ECM rating in combat. (Frigate)
+
+[Default]: 4",0,500,Custom Stats
+LUNA_CM_DEALMAKER_FLEET_SPEED_DESTROYER_BONUS,DEALMAKER_FLEET_SPEED_DESTROYER_BONUS,Double,6,,"Grants bonus ECM rating in combat. (Destroyer)
+
+[Default]: 6",0,500,Custom Stats
+LUNA_CM_DEALMAKER_FLEET_SPEED_CRUISER_BONUS,DEALMAKER_FLEET_SPEED_CRUISER_BONUS,Double,8,,"Grants bonus ECM rating in combat. (Cruiser)
+
+[Default]: 8",0,500,Custom Stats
+LUNA_CM_DEALMAKER_FLEET_SPEED_CAPITAL_BONUS,DEALMAKER_FLEET_SPEED_CAPITAL_BONUS,Double,10,,"Grants bonus ECM rating in combat. (Capital)
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_DEALMAKER_ECM_FRIGATE_BONUS,DEALMAKER_ECM_FRIGATE_BONUS,Double,5,,"Increases top speed of allies in combat. (Frigate)
+
+[Default]: 5",0,500,Custom Stats
+LUNA_CM_DEALMAKER_ECM_DESTROYER_BONUS,DEALMAKER_ECM_DESTROYER_BONUS,Double,10,,"Increases top speed of allies in combat. (Destroyer)
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_DEALMAKER_ECM_CRUISER_BONUS,DEALMAKER_ECM_CRUISER_BONUS,Double,15,,"Increases top speed of allies in combat. (Cruiser)
+
+[Default]: 15",0,500,Custom Stats
+LUNA_CM_DEALMAKER_ECM_CAPITAL_BONUS,DEALMAKER_ECM_CAPITAL_BONUS,Double,20,,"Increases top speed of allies in combat. (Capital)
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_DEALMAKER_COMMAND_RECOVERY_BONUS,DEALMAKER_COMMAND_RECOVERY_BONUS,Double,150,,"Increases command point recovery rate.
+
+[Default]: 150",0,500,Custom Stats
+,,,,,,,,
+shu_hypershuntTap,Flux Hypershunt,Header,Flux Hypershunt (Hypershunt Tap),,,,,Custom Stats
+LUNA_CM_HYPERSHUNT_VENT_BONUS,HYPERSHUNT_VENT_BONUS,Double,10,,"Increases flux dissipation.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_HYPERSHUNT_HARD_FLUX_DISSIPATION_PERCENT,HYPERSHUNT_HARD_FLUX_DISSIPATION_PERCENT,Double,25,,"Dissipates hard flux while shields are up.
+
+[Default]: 25",0,500,Custom Stats
+LUNA_CM_HYPERSHUNT_FLUX_DISSIPATION_MULT,HYPERSHUNT_FLUX_DISSIPATION_MULT,Double,40,,"Improves active vent rate.
+
+[Default]: 40",0,500,Custom Stats
+,,,,,,,,
+shu_mantleBore,High-Throttled Weapon Torque,Header,High-Throttled Weapon Torque (Mantle Bore),,,,,Custom Stats
+LUNA_CM_MANTLEBORE_BALLISTIC_RANGE_BONUS,MANTLEBORE_BALLISTIC_RANGE_BONUS,Double,10,,"Increases ballistic weapon range.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_MANTLEBORE_HIT_STR,MANTLEBORE_HIT_STR,Double,10,,"Increases hit strength of weapons to armor.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_MANTLEBORE_PROJ_SPEED_BONUS,MANTLEBORE_PROJ_SPEED_BONUS,Double,30,,"Increases weapon projectile speed.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_MANTLEBORE_RECOIL_BONUS,MANTLEBORE_RECOIL_BONUS,Double,60,,"Reduces weapon recoil.
+
+[Default]: 60",0,500,Custom Stats
+,,,,,,,,
+shu_catalyticCore,Maintenance Optimizer,Header,Maintenance Optimizer (Catalytic Core),,,,,Custom Stats
+LUNA_CM_CATALYTIC_CORE_MALFUNCTION_REDUCTION,CATALYTIC_CORE_MALFUNCTION_REDUCTION,Double,25,,"Reduces chance of ship's critical malfunctions.
+
+[Default]: 25",0,500,Custom Stats
+LUNA_CM_CATALYTIC_DEGRADE_REDUCTION_PERCENT,CATALYTIC_DEGRADE_REDUCTION_PERCENT,Double,30,,"Reduces the CR degradation rate.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_CATALYTIC_CR_PEAK_BONUS,CATALYTIC_CR_PEAK_BONUS,Double,40,,"Increases maximum peak operating time.
+
+[Default]: 40",0,500,Custom Stats
+LUNA_CM_CATALYTIC_SUPPLY_REDUCTION,CATALYTIC_SUPPLY_REDUCTION,Double,50,,"Decreases the supply usage.
+
+[Default]: 50",0,500,Custom Stats
+,,,,,,,,
+shu_soilNanite,Nanite Swarm Cluster,Header,Nanite Swarm Cluster (Soil Nanite),,,,,Custom Stats
+LUNA_CM_SOILNANITE_COMBAT_REPAIR_BONUS,SOILNANITE_COMBAT_REPAIR_BONUS,Double,60,,"Increases engine & weapon repair rate in combat.
+
+[Default]: 60",0,500,Custom Stats
+LUNA_CM_SOILNANITE_ARMOR_FRIGATE_BONUS,SOILNANITE_ARMOR_FRIGATE_BONUS,Double,50,,"Increases ship's armor rating. (Frigate)
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_SOILNANITE_ARMOR_DESTROYER_BONUS,SOILNANITE_ARMOR_DESTROYER_BONUS,Double,100,,"Increases ship's armor rating. (Destroyer)
+
+[Default]: 100",0,500,Custom Stats
+LUNA_CM_SOILNANITE_ARMOR_CRUISER_BONUS,SOILNANITE_ARMOR_CRUISER_BONUS,Double,150,,"Increases ship's armor rating. (Cruiser)
+
+[Default]: 150",0,500,Custom Stats
+LUNA_CM_SOILNANITE_ARMOR_CAPITAL_BONUS,SOILNANITE_ARMOR_CAPITAL_BONUS,Double,200,,"Increases ship's armor rating. (Capital)
+
+[Default]: 200",0,500,Custom Stats
+,,,,,,,,
+shu_fullreneSpool,Orbital Filament Anchor,Header,Orbital Filament Anchor (Fullerene Spool),,,,,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SURVEY_REDUCTION_FRIGATE,FULLLERENESPOOL_SURVEY_REDUCTION_FRIGATE,Double,10,,"Reduces survey operation cost. (Frigate)
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SURVEY_REDUCTION_DESTROYER,FULLLERENESPOOL_SURVEY_REDUCTION_DESTROYER,Double,20,,"Reduces survey operation cost. (Destroyer)
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SURVEY_REDUCTION_CRUISER,FULLLERENESPOOL_SURVEY_REDUCTION_CRUISER,Double,30,,"Reduces survey operation cost. (Cruiser)
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SURVEY_REDUCTION_CAPITAL,FULLLERENESPOOL_SURVEY_REDUCTION_CAPITAL,Double,50,,"Reduces survey operation cost. (Capital)
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SALVAGE_BONUS_FRIGATE,FULLLERENESPOOL_SALVAGE_BONUS_FRIGATE,Double,5,,"Increases resources gained from salvage. (Frigate)
+
+[Default]: 5",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SALVAGE_BONUS_DESTROYER,FULLLERENESPOOL_SALVAGE_BONUS_DESTROYER,Double,10,,"Increases resources gained from salvage. (Destroyer)
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SALVAGE_BONUS_CRUISER,FULLLERENESPOOL_SALVAGE_BONUS_CRUISER,Double,15,,"Increases resources gained from salvage. (Cruiser)
+
+[Default]: 15",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_SALVAGE_BONUS_CAPITAL,FULLLERENESPOOL_SALVAGE_BONUS_CAPITAL,Double,20,,"Increases resources gained from salvage. (Capital)
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_RARE_LOOT_BONUS_FRIGATE,FULLLERENESPOOL_RARE_LOOT_BONUS_FRIGATE,Double,2,,"Increases chance of rare loot from salvage. (Frigate)
+
+[Default]: 2",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_RARE_LOOT_BONUS_DESTROYER,FULLLERENESPOOL_RARE_LOOT_BONUS_DESTROYER,Double,4,,"Increases chance of rare loot from salvage. (Destroyer)
+
+[Default]: 4",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_RARE_LOOT_BONUS_CRUISER,FULLLERENESPOOL_RARE_LOOT_BONUS_CRUISER,Double,6,,"Increases chance of rare loot from salvage. (Cruiser)
+
+[Default]: 6",0,500,Custom Stats
+LUNA_CM_FULLLERENESPOOL_RARE_LOOT_BONUS_CAPITAL,FULLLERENESPOOL_RARE_LOOT_BONUS_CAPITAL,Double,8,,"Increases chance of rare loot from salvage. (Capital)
+
+[Default]: 8",0,500,Custom Stats
+,,,,,,,,
+shu_plasmaDynamo,Plasma-Charged Shield Emitter,Header,Plasma-Charged Shield Emitter (Plasma Dynamo),,,,,Custom Stats
+LUNA_CM_PLASMADYNAMO_SHIELD_BONUS,PLASMADYNAMO_SHIELD_BONUS,Double,25,,"Reduces damage taken by shields.
+
+[Default]: 25",0,500,Custom Stats
+LUNA_CM_PLASMADYNAMO_SHIELD_RATE,PLASMADYNAMO_SHIELD_RATE,Double,50,,"Improves shield raise and turn rate.
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_PLASMADYNAMO_SHIELD_UPKEEP_BONUS,PLASMADYNAMO_SHIELD_UPKEEP_BONUS,Double,60,,"Reduces shield upkeep.
+
+[Default]: 60",0,500,Custom Stats
+LUNA_CM_PLASMADYNAMO_SHIELD_ARC_BONUS,PLASMADYNAMO_SHIELD_ARC_BONUS,Double,90,,"Increases the shield's coverage.
+
+[Default]: 90",0,500,Custom Stats
+,,,,,,,,
+shu_cryoarithmeticEngine,Quantum Heatsink,Header,Quantum Heatsink (Cryoarithmetic Engine),,,,,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_FLUX_REDUC_PERCENT,CRYOARITHMETICENGINE_FLUX_REDUC_PERCENT,Double,25,,"Reduces weapon flux cost.
+
+[Default]: 25",0,500,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_ENGINE_HEALTH_BONUS,CRYOARITHMETICENGINE_ENGINE_HEALTH_BONUS,Double,100,,"Increases engine durability.
+
+[Default]: 100",0,500,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_SPEED_FRIGATE_BONUS,CRYOARITHMETICENGINE_SPEED_FRIGATE_BONUS,Double,20,,"Maximum top speed increase. (Frigate)
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_SPEED_DESTROYER_BONUS,CRYOARITHMETICENGINE_SPEED_DESTROYER_BONUS,Double,15,,"Maximum top speed increase. (Destroyer)
+
+[Default]: 15",0,500,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_SPEED_CRUISER_BONUS,CRYOARITHMETICENGINE_SPEED_CRUISER_BONUS,Double,10,,"Maximum top speed increase. (Cruiser)
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_CRYOARITHMETICENGINE_SPEED_CAPITAL_BONUS,CRYOARITHMETICENGINE_SPEED_CAPITAL_BONUS,Double,5,,"Maximum top speed increase. (Capital)
+
+[Default]: 5",0,500,Custom Stats
+,,,,,,,,
+shu_synchrotonCore,Synchro-Fuel Loader,Header,Synchro-Fuel Loader (Synchroton Core),,,,,Custom Stats
+LUNA_CM_SYNCHROTON_MAX_BURN_BONUS,SYNCHROTON_MAX_BURN_BONUS,Double,1,,"Increases ship's max burn level.
+
+[Default]: 1",0,500,Custom Stats
+LUNA_CM_SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_FRIGATE_BONUS,SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_FRIGATE_BONUS,Double,30,,"Orbital bombardment cost reduction. (Frigate)
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_DESTROYER_BONUS,SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_DESTROYER_BONUS,Double,60,,"Orbital bombardment cost reduction. (Destroyer)
+
+[Default]: 60",0,500,Custom Stats
+LUNA_CM_SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_CRUISER_BONUS,SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_CRUISER_BONUS,Double,80,,"Orbital bombardment cost reduction. (Cruiser)
+
+[Default]: 80",0,500,Custom Stats
+LUNA_CM_SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_CAPITAL_BONUS,SYNCHROTON_FLEET_BOMBARDMENT_REDUCTION_CAPITAL_BONUS,Double,100,,"Orbital bombardment cost reduction. (Capital)
+
+[Default]: 100",0,500,Custom Stats
+,,,,,,,,
+shu_fusionLamp,Variable Fusion Capacitors,Header,Variable Fusion Capacitors (Fusion Lamp),,,,,Custom Stats
+LUNA_CM_FUSIONLAMP_DAMAGE_BONUS,FUSIONLAMP_DAMAGE_BONUS,Double,5,,"Increases beam and energy weapon damage.
+
+[Default]: 5",0,500,Custom Stats
+LUNA_CM_FUSIONLAMP_FLUX_REDUC,FUSIONLAMP_FLUX_REDUC,Double,10,,"Reduces flux cost of beam weapons.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_FUSIONLAMP_SHIELD_DAMAGE_BONUS,FUSIONLAMP_SHIELD_DAMAGE_BONUS,Double,15,,"Increases damage dealt to shields.
+
+[Default]: 15",0,500,Custom Stats
+LUNA_CM_FUSIONLAMP_RANGE_BONUS,FUSIONLAMP_RANGE_BONUS,Double,20,,"Increases beam and energy weapon range.
+
+[Default]: 20",0,500,Custom Stats
+,,,,,,,,
+#COLLABORATION HULLMODS,,,,,,,,
+shu_collabHullmodsSFC,Sindrian Fuel Company Collaboration Hullmods,Header,Sindrian Fuel Company Collaboration Hullmods,,,,,Custom Stats
+shu_fighterNanoboosters,Fighter Nanoboosters,Header,Fighter Nanoboosters (Aquatic Stimulator),,Fighter Nanoboosters (Aquatic Stimulator),,,Custom Stats
+LUNA_CM_SFC_AQUATICSTIMULATOR_BEAM_DAMAGE_ENERGY_REDUCTION_BONUS,AQUATICSTIMULATOR_BEAM_DAMAGE_ENERGY_REDUCTION_BONUS,Double,20,,"Reduces beam and energy damage taken.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_SFC_AQUATICSTIMULATOR_EMP_DAMAGE_REDUCTION_BONUS,AQUATICSTIMULATOR_EMP_DAMAGE_REDUCTION_BONUS,Double,25,,"Reduces EMP damage taken.
+
+[Default]: 25",0,500,Custom Stats
+LUNA_CM_SFC_AQUATICSTIMULATOR_SOLAR_CORONA_STORM_NEGATIVE_REDUCTION_BONUS,AQUATICSTIMULATOR_SOLAR_CORONA_STORM_NEGATIVE_REDUCTION_BONUS,Double,25,,"Resistance to solar corona and hyperspace storm.
+
+[Default]: 25",0,500,Custom Stats
+,,,,,,,,
+shu_pspaceStabilizer,P-Space Stabilizer,Header,P-Space Stabilizer (Mote Megacondenser),,P-Space Stabilizer (Mote Megacondenser),,,Custom Stats
+LUNA_CM_SFC_MOTEMEGACONDENSER_PHASE_CD_REDUCTION_BONUS,MOTEMEGACONDENSER_PHASE_CD_REDUCTION_BONUS,Double,10,,"Reduces phase cooldown.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_SFC_MOTEMEGACONDENSER_PHASE_UPKEEP_REDUCTION_BONUS,MOTEMEGACONDENSER_PHASE_UPKEEP_REDUCTION_BONUS,Double,15,,"Reduces phase upkeep cost.
+
+[Default]:15",0,500,Custom Stats
+LUNA_CM_SFC_MOTEMEGACONDENSER_PHASE_ACTIVATION_COSE_REDUCTION_BONUS,MOTEMEGACONDENSER_PHASE_ACTIVATION_COSE_REDUCTION_BONUS,Double,20,,"Reduces phase activation cost.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_SFC_MOTEMEGACONDENSER_PHASE_HARDFLUX_IMPACT_REDUCTION_BONUS,MOTEMEGACONDENSER_PHASE_HARDFLUX_IMPACT_REDUCTION_BONUS,Double,60,,"Reduces impact of hard flux level on top speed while phased.
+
+[Default]: 60",0,500,Custom Stats
+,,,,,,,,
+shu_collabHullmodsUAF,United Auroran Federation Collaboration Hullmods,Header,United Auroran Federation Collaboration Hullmods,,,,,Custom Stats
+shu_auroranServosyncPump,Drive Field Actuator,Header,Drive Field Actuator (Auroran Servosync Pump),,Drive Field Actuator (Auroran Servosync Pump),,,Custom Stats
+LUNA_CM_UAF_SERVOSYNCPUMP_ENGINE_DURABILITY_BONUS,SERVOSYNCPUMP_ENGINE_DURABILITY_BONUS,Double,50,,"Increases engine durability.
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_UAF_SERVOSYNCPUMP_ZERO_FLUX_SPEED_BONUS,SERVOSYNCPUMP_ZERO_FLUX_SPEED_BONUS,Double,20,,"Increases zero-flux speed bonus.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_UAF_SERVOSYNCPUMP_ZERO_FLUX_LEVEL_MOVEMENT_BONUS,SERVOSYNCPUMP_ZERO_FLUX_LEVEL_MOVEMENT_BONUS,Double,30,,"Zero-flux movement speed bonus at 30 percent flux level and below.
+
+[Default]: 30",0,500,Custom Stats
+,,,,,,,,
+shu_auroranDimensionalStove,Dynamic Utility System,Header,Dynamic Utility System (Auroran Dimensional Stove),,Dynamic Utility System (Auroran Dimensional Stove),,,Custom Stats
+LUNA_CM_UAF_DIMENSIONALSTOVE_MAX_CR_BONUS,DIMENSIONALSTOVE_MAX_CR_BONUS,Double,10,,"Increases max combat readines.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_UAF_DIMENSIONALSTOVE_SYSTEM_COOLDOWN_REDUCTION,DIMENSIONALSTOVE_SYSTEM_COOLDOWN_REDUCTION,Double,30,,"Decreases ship's system cooldown.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_UAF_DIMENSIONALSTOVE_SYSTEM_REGEN_BONUS,DIMENSIONALSTOVE_SYSTEM_REGEN_BONUS,Double,40,,"Increases ship's system regeneration rate.
+
+[Default]: 40",0,500,Custom Stats
+,,,,,,,,
+shu_auroranDimensionalNanoforge,Fighter Autoforge,Header,Fighter Autoforge (Auroran Dimensional Nanoforge),,Fighter Autoforge (Auroran Dimensional Nanoforge),,,Custom Stats
+LUNA_CM_UAF_DIMENSIONALNANOFORGE_FIGHTER_REFIT_TIME_REDUCTION,DIMENSIONALNANOFORGE_FIGHTER_REFIT_TIME_REDUCTION,Double,20,,"Reduces fighter refit time.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_UAF_DIMENSIONALNANOFORGE_FIGHTER_HULL_ARMOR_BONUS,DIMENSIONALNANOFORGE_FIGHTER_HULL_ARMOR_BONUS,Double,30,,"Increases fighter's hull & armor rating.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_UAF_DIMENSIONALNANOFORGE_FIGHTER_WEAPON_AMMO_BONUS,DIMENSIONALNANOFORGE_FIGHTER_WEAPON_AMMO_BONUS,Double,50,,"Increases fighter's weapon ammo count.
+
+[Default]: 50",0,500,Custom Stats
+,,,,,,,,
+shu_auroranGarrisonTransmitter,Flight Control Transmitter,Header,Flight Control Transmitter (Auroran Garrison Transmitter),,Flight Control Transmitter (Auroran Garrison Transmitter),,,Custom Stats
+LUNA_CM_UAF_GARRISONTRANSMITTER_FIGHTER_SPEED_BONUS,GARRISONTRANSMITTER_FIGHTER_SPEED_BONUS,Double,20,,"Increases fighter speed.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_UAF_GARRISONTRANSMITTER_FIGHTER_DAMAGE_TO_SHIP_BONUS,GARRISONTRANSMITTER_FIGHTER_DAMAGE_TO_SHIP_BONUS,Double,20,,"Increases fighter's damage dealt to ships.
+
+[Default]: 20",0,500,Custom Stats
+LUNA_CM_UAF_GARRISONTRANSMITTER_FIGHTER_DAMAGE_TO_MISSILE_BONUS,GARRISONTRANSMITTER_FIGHTER_DAMAGE_TO_MISSILE_BONUS,Double,30,,"Increases fighter's damage dealt to missiles.
+
+[Default]: 30",0,500,Custom Stats
+,,,,,,,,
+shu_auroranModularPurifier,Logistic Analyzer,Header,Logistic Analyzer (Auroran Modular Purifier),,Logistic Analyzer (Auroran Modular Purifier),,,Custom Stats
+LUNA_CM_UAF_MODULARPURIFIER_MIN_CREW_REQUIREMENT_REDUCTION,MODULARPURIFIER_MIN_CREW_REQUIREMENT_REDUCTION,Double,30,,"Reduces minimum crew requirement.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_UAF_MODULARPURIFIER_SUPPLY_COST_RECOVER_FROM_DEPLOYMENT_REDUCTION,MODULARPURIFIER_SUPPLY_COST_RECOVER_FROM_DEPLOYMENT_REDUCTION,Double,40,,"Reduces supply cost to recover from deployment.
+
+[Default]: 40",0,500,Custom Stats
+LUNA_CM_UAF_MODULARPURIFIER_DEPLOYMENT_COST_REDUCTION_REDUCTION,MODULARPURIFIER_DEPLOYMENT_COST_REDUCTION_REDUCTION,Double,5,,"Reduces deployment cost.
+
+[Default]: 5",0,500,Custom Stats
+,,,,,,,,
+shu_auroranInterplanetaryAccessRouter,Magnetic Sensor Jammer,Header,Magnetic Sensor Jammer (Auroran Interplanetary Access Router),,Magnetic Sensor Jammer (Auroran Interplanetary Access Router),,,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYACCESSROUTER_FIGHTER_ENGAGEMENT_RANGE_BONUS,INTERPLANETARYACCESSROUTER_FIGHTER_ENGAGEMENT_RANGE_BONUS,Double,10,,"Increases fighter's engagement range.
+
+[Default]: 10",0,500,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYACCESSROUTER_SIGHT_COMBAT_BONUS,INTERPLANETARYACCESSROUTER_SIGHT_COMBAT_BONUS,Double,50,,"Increases ship's sight radius.
+
+[Default]: 50",0,500,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYACCESSROUTER_FIGHTER_TARGET_LEAD_BONUS,INTERPLANETARYACCESSROUTER_FIGHTER_TARGET_LEAD_BONUS,Double,50,,"Increases fighter's target accuracy.
+
+[Default]: 50",0,500,Custom Stats
+,,,,,,,,
+shu_auroranInterplanetaryRiceCooker,Defense Focus Integrator,Header,Defense Focus Integrator (Auroran Interplanetary Rice Cooker),,Defense Focus Integrator (Auroran Interplanetary Rice Cooker),,,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYRICECOOKER_SMALL_MED_PD_WEAPON_REDUCTION,INTERPLANETARYRICECOOKER_SMALL_MED_PD_WEAPON_REDUCTION,Double,3,,"Reduces OP cost of small & medium PD weapons.
+
+[Default]: 3",0,50,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYRICECOOKER_PD_WEAPON_DAMAGE_BONUS,INTERPLANETARYRICECOOKER_PD_WEAPON_DAMAGE_BONUS,Double,30,,"Increases damage output of all PD weapons.
+
+[Default]: 30",0,500,Custom Stats
+LUNA_CM_UAF_INTERPLANETARYRICECOOKER_DAMAGE_TO_FIGHTERS_MISSILES_BONUS,INTERPLANETARYRICECOOKER_DAMAGE_TO_FIGHTERS_MISSILES_BONUS,Double,50,,"Increases damage dealt to fighters and missiles.
+
+[Default]: 50",0,500,Custom Stats
+,,,,,,,,
+,,,,,,,,
+#EXTRA EFFECTS,,,,,,,,
+shu_disableCorruptedNanoforgeMFHeader,Missile Forging Header,Header,Missile Forging,,Arsenal Autoforge's extra effect.,,,Extra Effects
+shu_disableCorruptedNanoforgeMFToggle,Missile Forging Toggle,Boolean,False,,"Disable Arsenal Autoforge's Missile Forging.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disablePristineNanoforgeMFHeader,Missile Forging (Enhanced) Header,Header,Missile Forging (Enhanced),,Arsenal Autoforge's (Enhanced) extra effect.,,,Extra Effects
+shu_disablePristineNanoforgeMFToggle,Missile Forging Toggle,Boolean,False,,"Disable Arsenal Autoforge's (Enhanced) Missile Forging.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableBiofactoryEmbryoFHHeader,Fleet Hospital Header,Header,Fleet Hospital,,Biologic Commodity Replicator's extra effect.,,,Extra Effects
+shu_disableBiofactoryEmbryoFHToggle,Fleet Hospital Toggle,Boolean,False,,"Disable Biologic Commodity Replicator's Fleet Hospital.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableCombatDroneReplicatorAIRHeader,Atmospheric Invasion Refit Header,Header,Atmospheric Invasion Refit,,Expanded Fighter Manufactory's extra effect.,,,Extra Effects
+shu_disableCombatDroneReplicatorAIRToggle,Atmospheric Invasion Refit Toggle,Boolean,False,,"Disable Expanded Fighter Manufactory's Atmospheric Invasion Refit.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableDealmakerHolosuiteDTUHeader,Distributed Targeting Uplink Header,Header,Distributed Targeting Uplink,,Fleet Tactical Relay's extra effect.,,,Extra Effects
+shu_disableDealmakerHolosuiteDTUToggle,Distributed Targeting Uplink Toggle,Boolean,False,,"Disable Fleet Tactical Relay's Distributed Targeting Uplink.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableHypeshuntFluxDischargeHeader,Flux Discharge Header,Header,Flux Discharge,,Flux Hypershunt's extra effect.,,,Extra Effects
+shu_disableHypeshuntFluxDischargeToggle,Flux Discharge Toggle,Boolean,False,,"Disable Flux Hypershunt's Flux Discharge.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableMantleBoreUVRHeader,Ultra-Velocity Rounds Header,Header,Ultra-Velocity Rounds,,High-Throttled Weapon Torque's extra effect.,,,Extra Effects
+shu_disableMantleBoreUVRToggle,Ultra-Velocity Rounds Toggle,Boolean,False,,"Disable High-Throttled Weapon Torque's Ultra-Velocity Rounds.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableCatalyticCoreMRAHeader,Mobile Repair Autofactory Header,Header,Mobile Repair Autofactory,,Maintenance Optimizer's extra effect.,,,Extra Effects
+shu_disableCatalyticCoreMRAToggle,Mobile Repair Autofactory Toggle,Boolean,False,,"Disable Maintenance Optimizer's Mobile Repair Autofactory.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableSoilNaniteNRepairHeader,Nano Repair Header,Header,Nano Repair,,Nanite Swarm Cluster's extra effect.,,,Extra Effects
+shu_disableSoilNaniteNRepairToggle,Nano Repair Toggle,Boolean,False,,"Disable Nanite Swarm Cluster's Nano Repair.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableFullereneSpoolFTCHeader,Fullerene Tow Cable Header,Header,Fullerene Tow Cable,,Orbital Filament Anchor's extra effect.,,,Extra Effects
+shu_disableFullereneSpoolFTCToggle,Fullerene Tow Cable Toggle,Boolean,False,,"Disable Orbital Filament Anchor's Fullerene Tow Cable.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disablePlasmaDynamoCAHeader,Charged Acceleration Header,Header,Charged Acceleration,,Plasma-Charged Shield Emitter's extra effect.,,,Extra Effects
+shu_disablePlasmaDynamoCAToggle,Charged Acceleration Toggle,Boolean,False,,"Disable Plasma-Charged Shield Emitter's Charged Acceleration.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableCryoarithmeticEngineCFlaresHeader,Cryoflares Header,Header,Cryoflares,,Quantum Heatsink's extra effect.,,,Extra Effects
+shu_disableCryoarithmeticEngineCFlaresToggle,Cryoflares Toggle,Boolean,False,,"Disable Quantum Heatsink's Cryoflares.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableSynchrotonCoreAMCHeader,AM Fuel Calibrator Header,Header,AM Fuel Calibrator,,Synchro-Fuel Loader's extra effect.,,,Extra Effects
+shu_disableSynchrotonCoreAMCToggle,AM Fuel Calibrator Toggle,Boolean,False,,"Disable Synchro-Fuel Loader's AM Fuel Calibrator.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableFusionLampReactorSCHeader,Supercharged Capacitors Header,Header,Supercharged Capacitors,,Variable Fusion Capacitors's extra effect.,,,Extra Effects
+shu_disableFusionLampReactorSCToggle,Supercharged Capacitors Toggle,Boolean,False,,"Disable Variable Fusion Capacitors's Supercharged Capacitors.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+#COLLAB EFFECTS,,,,,,,,
+shu_collabHullmodsSFCEffectsHeader,Sindrian Fuel Company Collaboration Hullmods,Header,Sindrian Fuel Company Collaboration Hullmods,,,,,Extra Effects
+shu_disableAquaticStimulatorFRBHeader,Fighter Repair Bots Header,Header,Fighter Repair Bots,,Fighter Nanoboosters' extra effect.,,,Extra Effects
+shu_disableAquaticStimulatorFRBToggle,Fighter Repair Bots Toggle,Boolean,False,,"Disable Fighter Nanoboosters' Fighter Repair Bots.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableMoteMegacondenserPAHeader,Phase Anomalies Header,Header,Phase Anomalies,,P-Space Stabilizer's extra effects.,,,Extra Effects
+shu_disableMoteMegacondenserPAToggle,Phase Anomalies Toggle,Boolean,False,,"Disable P-Space Stabilizer's Phase Anomalies.
+
+[Default]: False",,,Extra Effects
+shu_disableMoteMegacondenserHFMToggle,High Frequency Motes Toggle,Boolean,False,,"Disable Ziggurat's High Frequency Motes.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_collabHullmodsUAFEffectsHeader,United Auroran Federation Collaboration Hullmods,Header,United Auroran Federation Collaboration Hullmods,,,,,Extra Effects
+shu_disableServosyncPumpSMHeader,Synchronized Movement Header,Header,Synchronized Movement,,Drive Field Actuator's extra effect.,,,Extra Effects
+shu_disableServosyncPumpSMToggle,Synchronized Movement Toggle,Boolean,False,,"Disable Drive Field Actuator's Synchronized Movement.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableDimensionalStoveRFCHeader,Recreational Fleet Cafe Header,Header,Recreational Fleet Cafe,,Dynamic Utility System's extra effect.,,,Extra Effects
+shu_disableDimensionalStoveRFCToggle,Recreational Fleet Cafe Toggle,Boolean,False,,"Disable Dynamic Utility System's Recreational Fleet Cafe.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableDimensionalNanoforgeFRSHeader,Fighter Reinforcements Subsystem Header,Header,Fighter Reinforcements Subsystem,,Fighter Autoforge's extra effect.,,,Extra Effects
+shu_disableDimensionalNanoforgeFRSToggle,Fighter Reinforcements Subsystem Toggle,Boolean,False,,"Disable Fighter Autoforge's Fighter Reinforcements Subsystem.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableGarrisonTransmitterFDCHeader,Fighter Damper Conduit Header,Header,Fighter Damper Conduit,,Flight Control Transmitter's extra effect.,,,Extra Effects
+shu_disableGarrisonTransmitterFDCToggle,Fighter Damper Conduit Toggle,Boolean,False,,"Disable Flight Control Transmitter's Fighter Damper Conduit.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableModularPurifierMMHeader,Maintenance Mitigator Header,Header,Maintenance Mitigator,,Logistic Analyzer's extra effect.,,,Extra Effects
+shu_disableModularPurifierMMToggle,Maintenance Mitigator Toggle,Boolean,False,,"Disable Logistic Analyzer's Maintenance Mitigator.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableInterplanetaryAccessRouterFDFHeader,Flight Disruption Field Header,Header,Flight Disruption Field,,Magnetic Sensor Jammer's extra effect.,,,Extra Effects
+shu_disableInterplanetaryAccessRouterFDFToggle,Flight Disruption Field Toggle,Boolean,False,,"Disable Magnetic Sensor Jammer's Flight Disruption Field.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+shu_disableInterplanetaryRiceCookerWOMHeader,Weapon Overdrive Mode Header,Header,Weapon Overdrive Mode,,Defense Focus Integrator's extra effect.,,,Extra Effects
+shu_disableInterplanetaryRiceCookerWOMToggle,Weapon Overdrive Mode Toggle,Boolean,False,,"Disable Defense Focus Integrator's Weapon Overdrive Mode.
+
+[Default]: False",,,Extra Effects
+,,,,,,,,
+,,,,,,,,
+#SHU UPGRADES COMPATIBILITY,,,,,,,,
+shu_generalUpgradesIncompatibilityHeader,Item Destruction Toggle Header,Header,AI core and Special Hullmods Mutual Exclusivity,,,,,Incompatibilities
+shu_generalUpgradesIncompatibilityToggle,Special Upgrades Total Compatibility,Boolean,False,,"Disables the incompatibilities of all Special Upgrades and AI core hullmods including the collaboration contents. Be warned that this does not include the vanilla hullmod incompatibilities; you still need to turn it off individually.
+
+[Warning]: This may cause weird interaction such as overlapping subsystem charge bars of hullmods with subsystems.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+#INCOMPATIBILITIES,,,,,,,,
+shu_NanoforgeCompatibility,Arsenal Autoforge Header,Header,Arsenal Autoforge(s),,,,,Incompatibilities
+shu_disableExpandedMissileRacksIncompatibilityToggle,Incompatibility with Expanded Missile Racks,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+shu_disableMissileAutoloaderIncompatibilityToggle,Incompatibility with Missile Autoloader,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_DroneReplicatorCompatibility,Expanded Fighter Manufactory Header,Header,Expanded Fighter Manufactory,,,,,Incompatibilities
+shu_disableExpandedDeckCrewIncompatibilityToggle,Incompatibility with Expanded Deck Crew,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_HypershuntTapCompatibility,Flux Hypershunt Header,Header,Flux Hypershunt,,,,,Incompatibilities
+shu_disableResistantFluxConduitsIncompatibilityToggle,Incompatibility with Resistant Flux Conduits,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_CatalyticCoreCompatibility,Maintenance Optimizer Header,Header,Maintenance Optimizer,,,,,Incompatibilities
+shu_disableEfficiencyOverhaulIncompatibilityToggle,Incompatibility with Efficiency Overhaul,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_SoilNaniteCompatibility,Nanite Swarm Cluster Header,Header,Nanite Swarm Cluster,,,,,Incompatibilities
+shu_disableAutomatedRepairUnitIncompatibilityToggle,Incompatibility with Automated Repair Unit,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_FullreneSpoolCompatibility,Orbital Filament Anchor Header,Header,Orbital Filament Anchor,,,,,Incompatibilities
+shu_disableSurveyingEquipmentIncompatibilityToggle,Incompatibility with Surveying Equipment,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_PlasmaDynamoCompatibility,Plasma-Charged Shield Emitter Header,Header,Plasma-Charged Shield Emitter,,,,,Incompatibilities
+shu_disableVanillaShieldHullmodsIncompatibilityToggle,"Incompatibility with Extended Shields, Hardened Shields, and Stabilized Shields",Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_FusionLampCompatibility,Variable Fusion Capacitors Header,Header,Variable Fusion Capacitors,,,,,Incompatibilities
+shu_disableAdvancedOpticsIncompatibilityToggle,Incompatibility with Advanced Optics,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+shu_collabHullmodsSFCIncompat,Sindrian Fuel Company,Header,Sindrian Fuel Company Collaboration Hullmods,,,,,Incompatibilities
+shu_pspaceStabilizerCompatibility,P-Space Stabilizer,Header,P-Space Stabilizer (Mote Megacondenser),,,,,Incompatibilities
+shu_disableSFCAdaptivePhaseCoilsIncompatibilityToggle,Incompatibility with Adaptive Phase Coils,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+shu_disableSFCPhaseAnchorIncompatibilityToggle,Incompatibility with Phase Anchor,Boolean,False,,"Set to true to disable the incompatibility.
+
+[Default]: False",,,Incompatibilities
+,,,,,,,,
+,,,,,,,,
+#MALUS TOGGLE,,,,,,,,
+shu_disableIncreasedDPAICoresHeader,Armament Support System DP Cost Penalty Toggle Header,Header,Armament Support System Penalty,,,,,Penalties
+shu_disableIncreasedDPAICoresToggle,Armament Support System DP Cost Penalty,Boolean,False,,"Set this to true to disable the increased deployment cost penalty of all Armament Support System hullmods.
+
+[Default]: False",,,Penalties
+,,,,,,,,
+shu_disableOverloadDurationHypershuntHeader,Flux Hypershunt Overload Duration Penalty Toggle Header,Header,Flux Hypershunt Penalty,,,,,Penalties
+shu_disableOverloadDurationHypershuntToggle,Flux Hypershunt Overload Duration Penalty,Boolean,False,,"Set this to true to disable the overload duration penalty.
+
+[Default]: False",,,Penalties
+,,,,,,,,
+,,,,,,,,
+#DISABLE HULLMODS,,,,,,,,
+shu_disableAlphaCoreHullmodHeader,Armament Support System (Alpha),Header,Armament Support System (Alpha),,,,,Disable Hullmods
+shu_disableAlphaCoreHullmodToggle,Armament Support System (Alpha) Toggle,Boolean,False,,"Armament Support System (Alpha) will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableBetaCoreHullmodHeader,Armament Support System (Beta),Header,Armament Support System (Beta),,,,,Disable Hullmods
+shu_disableBetaCoreHullmodToggle,Armament Support System (Beta) Toggle,Boolean,False,,"Armament Support System (Beta) will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableGammaCoreHullmodHeader,Armament Support System (Gamma),Header,Armament Support System (Gamma),,,,,Disable Hullmods
+shu_disableGammaCoreHullmodToggle,Armament Support System (Gamma) Toggle,Boolean,False,,"Armament Support System (Gamma) will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableCorruptedNanoforgeHullmodHeader,Arsenal Autoforge (C-Nanoforge),Header,Arsenal Autoforge (C-Nanoforge),,,,,Disable Hullmods
+shu_disableCorruptedNanoforgeHullmodToggle,Arsenal Autoforge (C-Nanoforge) Toggle,Boolean,False,,"Arsenal Autoforge (C-Nanoforge) will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disablePristineNanoforgeHullmodHeader,Arsenal Autoforge (P-Nanoforge),Header,Arsenal Autoforge (P-Nanoforge),,,,,Disable Hullmods
+shu_disablePristineNanoforgeHullmodToggle,Arsenal Autoforge (P-Nanoforge) Toggle,Boolean,False,,"Arsenal Autoforge (P-Nanoforge) will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableBiofactoryHullmodHeader,Biologic Commodity Replicator,Header,Biologic Commodity Replicator,,,,,Disable Hullmods
+shu_disableBiofactoryHullmodToggle,Biologic Commodity Replicator Toggle,Boolean,False,,"Biologic Commodity Replicator will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableDroneReplicatorHullmodHeader,Expanded Fighter Manufactory,Header,Expanded Fighter Manufactory,,,,,Disable Hullmods
+shu_disableDroneReplicatorHullmodToggle,Expanded Fighter Manufactory Toggle,Boolean,False,,"Expanded Fighter Manufactory will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableDealmakerHolosuiteHullmodHeader,Fleet Tactical Relay,Header,Fleet Tactical Relay,,,,,Disable Hullmods
+shu_disableDealmakerHolosuiteHullmodToggle,Fleet Tactical Relay Toggle,Boolean,False,,"Fleet Tactical Relay will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableHypershuntTapHullmodHeader,Flux Hypershunt,Header,Flux Hypershunt,,,,,Disable Hullmods
+shu_disableHypershuntTapHullmodToggle,Flux Hypershunt Toggle,Boolean,False,,"Flux Hypershunt will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableMantleBoreHullmodHeader,High-Throttled Weapon Torque,Header,High-Throttled Weapon Torque,,,,,Disable Hullmods
+shu_disableMantleBoreHullmodToggle,High-Throttled Weapon Torque Toggle,Boolean,False,,"High-Throttled Weapon Torque will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableCatalyticCoreHullmodHeader,Maintenance Optimizer,Header,Maintenance Optimizer,,,,,Disable Hullmods
+shu_disableCatalyticCoreHullmodToggle,Maintenance Optimizer Toggle,Boolean,False,,"Maintenance Optimizer will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableSoilNaniteHullmodHeader,Nanite Swarm Cluster,Header,Nanite Swarm Cluster,,,,,Disable Hullmods
+shu_disableSoilNaniteHullmodToggle,Nanite Swarm Cluster Toggle,Boolean,False,,"Nanite Swarm Cluster will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableFullereneSpoolHullmodHeader,Orbital Filament Anchor,Header,Orbital Filament Anchor,,,,,Disable Hullmods
+shu_disableFullereneSpoolHullmodToggle,Orbital Filament Anchor Toggle,Boolean,False,,"Orbital Filament Anchor will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disablePlasmaDynamoHullmodHeader,Plasma-Charged Shield Emitter,Header,Plasma-Charged Shield Emitter,,,,,Disable Hullmods
+shu_disablePlasmaDynamoHullmodToggle,Plasma-Charged Shield Emitter Toggle,Boolean,False,,"Plasma-Charged Shield Emitter will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableCryoarithmeticEngineHullmodHeader,Quantum Heatsink,Header,Quantum Heatsink,,,,,Disable Hullmods
+shu_disableCryoarithmeticEngineHullmodToggle,Quantum Heatsink Toggle,Boolean,False,,"Quantum Heatsink will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableSynchrotonCoreHullmodHeader,Synchro-Fuel Loader,Header,Synchro-Fuel Loader,,,,,Disable Hullmods
+shu_disableSynchrotonCoreHullmodToggle,Synchro-Fuel Loader Toggle,Boolean,False,,"Synchro-Fuel Loader will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,
+shu_disableFusionLampReactorHullmodHeader,Variable Fusion Capacitors,Header,Variable Fusion Capacitors,,,,,Disable Hullmods
+shu_disableFusionLampReactorHullmodToggle,Variable Fusion Capacitors Toggle,Boolean,False,,"Variable Fusion Capacitors will be disabled if set to true.
+
+[Default]: False",,,Disable Hullmods
+,,,,,,,,

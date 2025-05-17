@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Special Hullmod Upgrades:jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="archive" name="SpecialUpgrades.jar">
+      <element id="module-output" name="Special Hullmod Upgrades" />
+    </root>
+  </artifact>
+</component>

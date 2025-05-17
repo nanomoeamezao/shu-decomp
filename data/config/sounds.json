@@ -1,0 +1,25 @@
+{
+	#Misc	
+	#Hullmod Conflict WUB WUB
+	"spuhm_hullmod_conflict":{
+		"sounds":[
+			{"file":"sounds/misc/spuhm_hullmod_conflict.ogg", "pitch":1, "volume":0.6},
+			],
+	},
+
+	"sphum_asterian_blessing_activate":[
+		{"file":"sounds/shipsystem/shu_himeblessing_activate.ogg","pitch":0.9, "volume":0.69},
+		{"file":"sounds/shipsystem/shu_himeblessing_activate.ogg","pitch":1, "volume":0.59},
+		{"file":"sounds/shipsystem/shu_himeblessing_activate.ogg","pitch":0.9, "volume":0.69},
+	],
+
+	"sphum_asterian_blessing_loop":[
+		{"file":"sounds/shipsystem/shu_himeblessing_loop.ogg","pitch":1, "volume":0.8},
+	],
+
+	"sphum_fluxshunt_boom":[
+		{"file":"sounds/shipsystem/shu_fluxshunt_boom.ogg","pitch":0.9, "volume":0.59},
+		{"file":"sounds/shipsystem/shu_fluxshunt_boom.ogg","pitch":1, "volume":0.49},
+		{"file":"sounds/shipsystem/shu_fluxshunt_boom.ogg","pitch":0.9, "volume":0.59},
+	],
+}

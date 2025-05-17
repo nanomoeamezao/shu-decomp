@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+SHUAllHullmods,data.scripts.console.SHUAllHullmods,"core,cheat,campaign",shuallhullmods (no arguments),Unlocks all Reverse Engineered hullmods in the refit screen. Persists until the game is closed.

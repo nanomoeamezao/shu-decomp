@@ -1,0 +1,13 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/CremeDeFramboise/VersionChecker/main/sphmu.version",
+    "modName":"Special Hullmod Upgrades",
+    "modThreadId":"25424",
+    "modVersion":
+    {
+        "major":1,
+        "minor":6,
+        "patch":0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+    },
+    "directDownloadURL":"https://github.com/CremeDeFramboise/Special-Hullmod-Upgrades/releases/download/v1.6/Special.Hullmod.Upgrades.zip",
+    "changelogURL":"https://raw.githubusercontent.com/CremeDeFramboise/Special-Hullmod-Upgrades/main/Special%20Hullmod%20Upgrades/changelog.txt",
+}
