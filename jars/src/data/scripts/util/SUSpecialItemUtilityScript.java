@@ -7,6 +7,7 @@ import com.fs.starfarer.api.combat.ShipVariantAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import data.hullmods.SUHullmodUpgradeInstaller;
+import data.scripts.util.id.SUStringCodex;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -82,8 +83,8 @@ public class SUSpecialItemUtilityScript extends BaseHullMod {
                            SUHullmodUpgradeInstaller.removeHullmodToModulesOfShip(shipVariant, currentShipStats, "specialsphmod_soilnanites_extension");
                         }
 
-                        member.getVariant().getHullMods().remove("specialsphmod_specialitemutility_script");
-                        member.getVariant().removePermaMod("specialsphmod_specialitemutility_script");
+                        member.getVariant().getHullMods().remove(SUStringCodex.SPECIAL_ITEM_UTILITY_SCRIPT);
+                        member.getVariant().removePermaMod(SUStringCodex.SPECIAL_ITEM_UTILITY_SCRIPT);
                      }
                   }
                }

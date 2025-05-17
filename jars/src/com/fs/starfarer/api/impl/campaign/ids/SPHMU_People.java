@@ -6,6 +6,7 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.ImportantPeopleAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.characters.FullName.Gender;
+import data.scripts.util.id.SUStringCodex;
 
 public class SPHMU_People extends People {
    public static final String HUBERT = "sphmu_hubert";
@@ -22,7 +23,7 @@ public class SPHMU_People extends People {
    public static void createMiscCharacters() {
       ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
       MarketAPI market = null;
-      market = Global.getSector().getEconomy().getMarket("port_tse");
+      market = Global.getSector().getEconomy().getMarket(SUStringCodex.PORT_TSE_FRANCHISE);
       if (market != null) {
          PersonAPI person = Global.getFactory().createPerson();
          person.setId("sphmu_hubert");

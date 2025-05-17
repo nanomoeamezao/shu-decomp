@@ -7,6 +7,7 @@ import com.fs.starfarer.api.combat.ShipVariantAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import data.hullmods.SUHullmodUpgradeInstaller;
+import data.scripts.util.id.SUStringCodex;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -50,8 +51,8 @@ public class SUAICoreUtilityScript extends BaseHullMod {
                            SUHullmodUpgradeInstaller.removeHullmodToModulesOfShip(shipVariant, currentShipStats, "specialsphmod_gamma_core_module_extension");
                         }
 
-                        member.getVariant().getHullMods().remove("specialsphmod_aicoreutilityscript_script");
-                        member.getVariant().removePermaMod("specialsphmod_aicoreutilityscript_script");
+                        member.getVariant().getHullMods().remove(SUStringCodex.AICORE_UTILITY_SCRIPT);
+                        member.getVariant().removePermaMod(SUStringCodex.AICORE_UTILITY_SCRIPT);
                      }
                   }
                }

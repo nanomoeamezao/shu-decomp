@@ -15,12 +15,12 @@ public class SHUAllHullmods implements BaseCommand {
          return CommandResult.WRONG_CONTEXT;
       } else {
          CharacterDataAPI player = Global.getSector().getCharacterData();
-         boolean isStinkyCheater = Global.getSector().getMemory().contains("$shu_player_cheated");
+         boolean isStinkyCheater = Global.getSector().getMemory().contains(SUStringCodex.SHU_CONSOLE_COMMAND_MEMKEY);
          boolean isSHULearnedAll = Global.getSector().getCharacterData().getHullMods().containsAll(SUStringCodex.SHUHULLMODCOLLECTION);
-         if (!player.knowsHullMod("$shu_player_cheated")) {
+         if (!player.knowsHullMod(SUStringCodex.SHU_CONSOLE_COMMAND_MEMKEY)) {
             player.getHullMods().addAll(SUStringCodex.SHUHULLMODCOLLECTION);
             if (!isStinkyCheater) {
-               Global.getSector().getMemory().set("$shu_player_cheated", true);
+               Global.getSector().getMemory().set(SUStringCodex.SHU_CONSOLE_COMMAND_MEMKEY, true);
             }
          }
 

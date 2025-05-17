@@ -2,7 +2,7 @@
     "id": "mayu_specialupgrades",
     "name": "Special Hullmod Upgrades",
     "author": "Mayu",
-    "version": "1.6",
+    "version": "1.6a",
     "description": "Allows the installation of colony items on ship for various bonuses with a risk(?).",
     "gameVersion": "0.98a-RC7",
 	"jars":["jars/SpecialUpgrades.jar"],	

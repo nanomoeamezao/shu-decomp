@@ -18,9 +18,9 @@ import org.json.JSONObject;
 
 public class SUPlugin extends BaseModPlugin {
    public static final int LEVEL_REQ = 9;
-   public static final String SHUBEKEY = "$SpecialHMODBarOffer";
-   public static final String SHUCONSOLEKEY = "$shu_player_cheated";
-   private static final String SHU_SETTINGS = "sphmu_options.ini";
+   public static final String SHUBEKEY = SUStringCodex.SHU_BE_MEMKEY;
+   public static final String SHUCONSOLEKEY = SUStringCodex.SHU_CONSOLE_COMMAND_MEMKEY;
+   private static final String SHU_SETTINGS = SUStringCodex.SHU_CONFIG_INI;
    private static final String LAZYLIB = "lw_lazylib";
    private static final String LUNALIB = "lunalib";
    private static final String MAGICLIB = "MagicLib";
@@ -233,12 +233,12 @@ public class SUPlugin extends BaseModPlugin {
    public void onGameLoad(boolean isNewGame) {
       SUBioFactoryProductionScript Bioproduction = new SUBioFactoryProductionScript();
       SUHullmodDisplayBlockScript HMODBLOCKER = new SUHullmodDisplayBlockScript();
-      boolean SHUMemkey = Global.getSector().getMemory().contains("$SpecialHMODBarOffer");
+      boolean SHUMemkey = Global.getSector().getMemory().contains(SHUBEKEY);
       Global.getSector().addTransientScript(Bioproduction);
       Global.getSector().addTransientScript(HMODBLOCKER);
       SectorAPI sector = Global.getSector();
       MarketAPI market = null;
-      market = Global.getSector().getEconomy().getMarket("port_tse");
+      market = Global.getSector().getEconomy().getMarket(SUStringCodex.PORT_TSE_FRANCHISE);
       boolean disableDestruction = DISABLE_ITEMDESTRUCTION;
       if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
          disableDestruction = LunaSettings.getBoolean("mayu_specialupgrades", "shu_itemdestructionToggle");
@@ -268,9 +268,9 @@ public class SUPlugin extends BaseModPlugin {
 
    public void onNewGameAfterTimePass() {
       SectorAPI sector = Global.getSector();
-      boolean SHUMemkey = Global.getSector().getMemory().contains("$SpecialHMODBarOffer");
+      boolean SHUMemkey = Global.getSector().getMemory().contains(SHUBEKEY);
       MarketAPI market = null;
-      market = Global.getSector().getEconomy().getMarket("port_tse");
+      market = Global.getSector().getEconomy().getMarket(SUStringCodex.PORT_TSE_FRANCHISE);
       if (market == null) {
          sector.removeListener(new SUIntelListener());
       }
@@ -291,7 +291,7 @@ public class SUPlugin extends BaseModPlugin {
    }
 
    private static void loadSPHMUOptions() throws IOException, JSONException {
-      JSONObject setting = Global.getSettings().loadJSON("sphmu_options.ini");
+      JSONObject setting = Global.getSettings().loadJSON(SHU_SETTINGS);
       KEYPRESS_HIMEMIKO = setting.getString("shu_subsystem_hotkey_mikohime");
       KEYPRESS_UAF_DIMENSIONAL_NANOFORGE = setting.getString("shu_subsystem_hotkey_uaf_dimensional");
       KEYPRESS_UAF_GARRISON_TRANSMITTER = setting.getString("shu_subsystem_hotkey_uaf_garrison");
@@ -589,8 +589,8 @@ public class SUPlugin extends BaseModPlugin {
    }
 
    private static void hullmodToggle() {
-      boolean SHUMemkey = Global.getSector().getMemory().contains("$SpecialHMODBarOffer");
-      boolean SHUCONSOLEMemkey = Global.getSector().getMemory().contains("$shu_player_cheated");
+      boolean SHUMemkey = Global.getSector().getMemory().contains(SHUBEKEY);
+      boolean SHUCONSOLEMemkey = Global.getSector().getMemory().contains(SHUCONSOLEKEY);
       if (HASLUNALIB) {
          DISABLE_ALPHAHMOD = LunaSettings.getBoolean("mayu_specialupgrades", "shu_disableAlphaCoreHullmodToggle");
          DISABLE_BETAHMOD = LunaSettings.getBoolean("mayu_specialupgrades", "shu_disableBetaCoreHullmodToggle");

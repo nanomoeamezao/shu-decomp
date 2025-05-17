@@ -76,7 +76,6 @@ public class SUFullereneTowCable implements HullModEffect {
                            }
 
                            numCables++;
-                           break;
                         }
                      }
 
@@ -115,8 +114,6 @@ public class SUFullereneTowCable implements HullModEffect {
                                  System.out.println("Num: " + slowest.getBuffManager().getBuffs().size());
                                  System.out.println("added to " + slowest);
                               }
-
-                              data.setForceNoSync(true);
                               break;
                            }
                         }
@@ -125,8 +122,6 @@ public class SUFullereneTowCable implements HullModEffect {
                            if (currx != thisCableTarget) {
                               currx.getBuffManager().removeBuff(buff.getId());
                               currx.updateStats();
-                              data.setForceNoSync(true);
-                              break;
                            }
                         }
                      } else {

@@ -7,6 +7,7 @@ import com.fs.starfarer.api.combat.EngagementResultAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import data.hullmods.SUHullmodUpgradeInstaller;
 import data.scripts.SUPlugin;
+import data.scripts.util.id.SUStringCodex;
 import java.util.Map;
 import lunalib.lunaSettings.LunaSettings;
 
@@ -167,16 +168,16 @@ public class SUBattleResultListener extends BaseCampaignEventListener {
             ship.getVariant().removeMod("specialsphmod_uaf_servosyncpump_upgrades");
          }
 
-         if (ship.getVariant().hasHullMod("specialsphmod_aicoreutilityscript_script")) {
-            ship.getVariant().removePermaMod("specialsphmod_aicoreutilityscript_script");
+         if (ship.getVariant().hasHullMod(SUStringCodex.AICORE_UTILITY_SCRIPT)) {
+            ship.getVariant().removePermaMod(SUStringCodex.AICORE_UTILITY_SCRIPT);
          }
 
-         if (ship.getVariant().hasHullMod("specialsphmod_specialitemutility_script")) {
-            ship.getVariant().removePermaMod("specialsphmod_specialitemutility_script");
+         if (ship.getVariant().hasHullMod(SUStringCodex.SPECIAL_ITEM_UTILITY_SCRIPT)) {
+            ship.getVariant().removePermaMod(SUStringCodex.SPECIAL_ITEM_UTILITY_SCRIPT);
          }
 
-         if (ship.getVariant().hasHullMod("specialsphmod_collabspecialitemutility_script")) {
-            ship.getVariant().removePermaMod("specialsphmod_collabspecialitemutility_script");
+         if (ship.getVariant().hasHullMod(SUStringCodex.COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT)) {
+            ship.getVariant().removePermaMod(SUStringCodex.COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT);
          }
 
          if (ship.getVariant().hasHullMod("specialsphmod_alphacore_utilityscript")) {

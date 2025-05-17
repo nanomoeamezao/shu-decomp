@@ -8,6 +8,7 @@ import com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin;
 import com.fs.starfarer.api.ui.SectorMapAPI;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.util.id.SUStringCodex;
 import java.awt.Color;
 import java.util.Set;
 
@@ -31,7 +32,7 @@ public class SUHintIntel extends BaseIntelPlugin {
          this.endAfterDelay();
       }
 
-      MarketAPI market = Global.getSector().getEconomy().getMarket("port_tse");
+      MarketAPI market = Global.getSector().getEconomy().getMarket(SUStringCodex.PORT_TSE_FRANCHISE);
       if (market == null) {
          this.endImmediately();
       }
@@ -95,7 +96,7 @@ public class SUHintIntel extends BaseIntelPlugin {
 
    public SectorEntityToken getMapLocation(SectorMapAPI map) {
       MarketAPI market = null;
-      market = Global.getSector().getEconomy().getMarket("port_tse");
+      market = Global.getSector().getEconomy().getMarket(SUStringCodex.PORT_TSE_FRANCHISE);
       return market == null ? null : market.getPrimaryEntity();
    }
 }

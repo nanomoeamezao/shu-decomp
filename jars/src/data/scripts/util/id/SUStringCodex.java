@@ -1,6 +1,5 @@
 package data.scripts.util.id;
 
-import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.util.Misc;
 import java.awt.Color;
 import java.util.Arrays;
@@ -129,14 +128,13 @@ public class SUStringCodex {
    public static final String UAF_SERVOSYNC_PUMP_UTILITY_SCRIPT = "specialsphmod_uaf_servosyncpump_utilityscript";
    public static final String UAF_DIMENSIONAL_STOVE_UTILITY_SCRIPT = "specialsphmod_uaf_dimensionalstove_utilityscript";
    public static final String UAF_INTERPLANETARY_RICE_COOKER_UTILITY_SCRIPT = "specialsphmod_uaf_interplanetary_ricecooker_utilityscript";
-   public static final Object SHU_PFOBJ = Global.getSector().getPlayerFleet();
-   public static final String SHU_CONSOLE_COMMAND_MEMKEY = "$shu_player_cheated";
-   public static final String SHU_BE_MEMKEY = "$SpecialHMODBarOffer";
-   public static final String PORT_TSE_FRANCHISE = "port_tse";
-   public static final String SPECIAL_ITEM_UTILITY_SCRIPT = "specialsphmod_specialitemutility_script";
-   public static final String AICORE_UTILITY_SCRIPT = "specialsphmod_aicoreutilityscript_script";
-   public static final String COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT = "specialsphmod_collabspecialitemutility_script";
-   public static final String SHU_CONFIG_INI = "sphmu_options.ini";
+   public static String SHU_CONSOLE_COMMAND_MEMKEY = "$shu_player_cheated";
+   public static String SHU_BE_MEMKEY = "$SpecialHMODBarOffer";
+   public static String PORT_TSE_FRANCHISE = "port_tse";
+   public static String SPECIAL_ITEM_UTILITY_SCRIPT = "specialsphmod_specialitemutility_script";
+   public static String AICORE_UTILITY_SCRIPT = "specialsphmod_aicoreutilityscript_script";
+   public static String COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT = "specialsphmod_collabspecialitemutility_script";
+   public static String SHU_CONFIG_INI = "sphmu_options.ini";
    public static final String ARMAAMOD = "armaa";
    public static final String ARMAA_PREFIX = "armaa_";
    public static final String UAFMOD = "uaf";

@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
+import data.scripts.util.id.SUStringCodex;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -42,8 +43,8 @@ public class SUSpecialCollabItemUtilityScript extends BaseHullMod {
                            member.getVariant().getPermaMods().remove("high_frequency_attractor");
                         }
 
-                        member.getVariant().getHullMods().remove("specialsphmod_collabspecialitemutility_script");
-                        member.getVariant().removePermaMod("specialsphmod_collabspecialitemutility_script");
+                        member.getVariant().getHullMods().remove(SUStringCodex.COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT);
+                        member.getVariant().removePermaMod(SUStringCodex.COLLAB_SPECIAL_ITEM_UTILITY_SCRIPT);
                      }
                   }
                }

@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.BaseCampaignEventListener;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.intel.misc.SUHintIntel;
+import data.scripts.SUPlugin;
 import data.scripts.util.id.SUStringCodex;
 
 public class SUIntelListener extends BaseCampaignEventListener {
@@ -12,7 +13,7 @@ public class SUIntelListener extends BaseCampaignEventListener {
    }
 
    public void reportPlayerClosedMarket(MarketAPI market) {
-      boolean SHUMemkey = Global.getSector().getMemory().contains("$SpecialHMODBarOffer");
+      boolean SHUMemkey = Global.getSector().getMemory().contains(SUPlugin.SHUBEKEY);
       SUHintIntel intel = new SUHintIntel();
       if (Global.getSector().getCharacterData().getPerson().getStats().getLevel() >= 9
          && !Global.getSector().getCharacterData().getHullMods().containsAll(SUStringCodex.SHUHULLMODCOLLECTION)) {
